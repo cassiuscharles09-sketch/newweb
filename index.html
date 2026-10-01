@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DATAMEX - Committed to Skill Development</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+        data-default-icon="Logo Icon"
+        data-badged-icon="Logo Icon"
+        rel="shortcut icon"
+        href="img/logo.PNG"
+    />
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar-custom" id="navbar">
+        <div class="navbar-content">
+            <div class="navbar-left d-none d-lg-flex">
+                <ul class="navbar-links">
+                    <li><a href="index.html" style="font-weight: 700; color: #811C19;">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                </ul>
+            </div>
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.PNG" alt="DATAMEX Logo">
+            </a>
+            <div class="navbar-right d-none d-lg-flex">
+                <ul class="navbar-links">
+                    <li><a href="admissions.html">Admissions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <a href="#modalMenu" class="hamburger-btn d-lg-none" id="menuBtn" aria-label="Open Navigation Menu">
+                <i class='bx bx-menu'></i>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Modal Menu (Pure CSS :target) -->
+    <div class="modal-menu" id="modalMenu">
+        <a href="#" class="modal-overlay" id="modalOverlay" aria-label="Close Navigation Menu"></a>
+        <div class="modal-menu-container">
+            <div class="modal-header">
+                <div class="modal-brand-wrap">
+                    <img src="img/logo.PNG" alt="DATAMEX Logo">
+                    <div class="modal-brand-text">
+                        <span class="modal-brand-name">DATAMEX COLLEGE</span>
+                        <span class="modal-brand-tag">Saint Adeline • DCSA</span>
+                    </div>
+                </div>
+                <a href="#" class="close-btn" id="closeBtn" aria-label="Close Navigation Menu">✕</a>
+            </div>
+            <div class="modal-content">
+                <ul class="modal-nav">
+                    <li><a href="index.html" class="active"><i class='bx bx-home-alt'></i><span>Home</span></a></li>
+                    <li><a href="about.html"><i class='bx bx-info-circle'></i><span>About DCSA</span></a></li>
+                    <li><a href="academics.html"><i class='bx bx-book-open'></i><span>Academics</span></a></li>
+                    <li><a href="admissions.html"><i class='bx bx-map-pin'></i><span>Admissions & Branches</span></a></li>
+                    <li><a href="contact.html"><i class='bx bx-phone-call'></i><span>Contact Us</span></a></li>
+                    <li><a href="#campus-tour"><i class='bx bx-video'></i><span>Campus Video Tour</span></a></li>
+                    <li><a href="#events"><i class='bx bx-calendar-event'></i><span>Campus Events</span></a></li>
+                    <li><a href="#faq"><i class='bx bx-help-circle'></i><span>FAQ</span></a></li>
+                </ul>
+                <div class="modal-footer-cta">
+                    <a href="admissions.html" class="modal-apply-btn">
+                        <i class='bx bx-edit-alt'></i>
+                        <span>Apply / Inquire Now</span>
+                    </a>
+                    <div class="modal-quick-info">
+                        <span><i class='bx bx-phone'></i> (02) 8-DATAMEX</span>
+                        <span><i class='bx bx-check-shield'></i> Accredited</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container h-100" style="margin-top: -80px;">
+            <div class="row h-100 align-items-center justify-content-center">
+                <div class="col-lg-8 text-center hero-content">
+                    <h1 class="hero-title mb-4">Committed to Skill Development</h1>
+                    <p class="hero-subtitle mb-5">Empowering students with skills and knowledge. — DATAMEX</p>
+                    <div class="hero-buttons">
+                        <a href="#contactModal" class="btn btn-hero-primary">
+                            APPLY NOW
+                            <i class='bx bx-right-arrow-alt btn-arrow'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="img/logo.PNG" alt="Logo" class="hero-bottom-logo">
+    </section>
+
+    <!-- Quick Portals (From DSCA) -->
+    <div class="quick-portals">
+        <div class="portals-grid">
+            <a href="admissions.html#branches" class="portal-card red">
+                <div class="portal-info">
+                    <h4>Campus Admissions</h4>
+                    <p>4 Metro Branches Near You</p>
+                </div>
+                <div class="portal-icon-wrap">
+                    <i class='bx bx-map-pin'></i>
+                </div>
+            </a>
+
+            <a href="academics.html" class="portal-card navy">
+                <div class="portal-info">
+                    <h4>Academic Programs</h4>
+                    <p>BSIT, BSHM, ACT & SHS Strands</p>
+                </div>
+                <div class="portal-icon-wrap">
+                    <i class='bx bx-book-open'></i>
+                </div>
+            </a>
+
+            <a href="about.html#facilities" class="portal-card green">
+                <div class="portal-info">
+                    <h4>Campus Facilities</h4>
+                    <p>Computer Labs, Kitchen & E-Library</p>
+                </div>
+                <div class="portal-icon-wrap">
+                    <i class='bx bx-laptop'></i>
+                </div>
+            </a>
+
+            <a href="contact.html" class="portal-card blue">
+                <div class="portal-info">
+                    <h4>Contact & Inquiries</h4>
+                    <p>Direct Admissions Helpdesk</p>
+                </div>
+                <div class="portal-icon-wrap">
+                    <i class='bx bx-phone-call'></i>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- Campus Video Tour Section (From DSCA) -->
+    <section class="campus-video-section" id="campus-tour">
+        <div class="container" style="max-width: 1050px;">
+            <div class="text-center" style="margin-bottom: 35px;">
+                <span class="section-tag">Campus Showcase</span>
+                <h2 class="section-main-title">Experience Life at DCSA</h2>
+                <p class="section-main-desc">Watch our student life, state-of-the-art facilities, campus events, and academic community in action.</p>
+            </div>
+            
+            <div class="video-container-wrap">
+                <div class="video-box-card">
+                    <video controls autoplay muted loop playsinline preload="metadata" class="campus-main-video">
+                        <source src="img/videoooo.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                
+                <div class="video-highlights-row">
+                    <div class="video-highlight-pill">
+                        <i class='bx bx-video'></i>
+                        <span>Campus Tour Video</span>
+                    </div>
+                    <div class="video-highlight-pill">
+                        <i class='bx bx-laptop'></i>
+                        <span>High-Tech Labs & Classrooms</span>
+                    </div>
+                    <div class="video-highlight-pill">
+                        <i class='bx bx-trophy'></i>
+                        <span>Sportsfest & Activities</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Sections Wrapper -->
+    <div class="horizontal-scroll-wrapper" id="horizontalWrapper">
+        <div class="horizontal-scroll-container">
+            <div class="horizontal-scroll-content" id="horizontalContent">
+                
+                <!-- About Section -->
+                <section class="about-section" id="about">
+                    <div class="about-content">
+                        <h2 class="about-title">About</h2>
+                        <p class="about-text" id="aboutText">
+                            <span class="text-word">Our </span>
+                            <span class="text-word">school </span>
+                            <span class="text-word">is </span>
+                            <span class="text-word">committed </span>
+                            <span class="text-word">to </span>
+                            <span class="text-word">providing </span>
+                            <span class="text-word">quality </span>
+                            <span class="text-word">education </span>
+                            <span class="text-word">in </span>
+                            <span class="text-word">a </span>
+                            <span class="text-word">supportive </span>
+                            <span class="text-word">and </span>
+                            <span class="text-word">engaging </span>
+                            <span class="text-word">learning </span>
+                            <span class="text-word">environment. </span>
+                            <span class="text-word">We </span>
+                            <span class="text-word">help </span>
+                            <span class="text-word">students </span>
+                            <span class="text-word">develop </span>
+                            <span class="text-word">knowledge, </span>
+                            <span class="text-word">skills, </span>
+                            <span class="text-word">and </span>
+                            <span class="text-word">values </span>
+                            <span class="text-word">needed </span>
+                            <span class="text-word">for </span>
+                            <span class="text-word">academic </span>
+                            <span class="text-word">and </span>
+                            <span class="text-word">future </span>
+                            <span class="text-word">success.</span>
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Vision Section -->
+                <section class="vision-section" id="vision">
+                    <div class="vision-content">
+                        <div class="vision-image">
+                            <img src="img/shared-vision.png" alt="Vision">
+                        </div>
+                        <div class="vision-text">
+                            <h3>Vision</h3>
+                            <p class="vision-paragraph">
+                                <span class="text-word">To </span>
+                                <span class="text-word">be </span>
+                                <span class="text-word">a </span>
+                                <span class="text-word">leading </span>
+                                <span class="text-word">educational </span>
+                                <span class="text-word">institution </span>
+                                <span class="text-word">that </span>
+                                <span class="text-word">inspires </span>
+                                <span class="text-word">students </span>
+                                <span class="text-word">to </span>
+                                <span class="text-word">achieve </span>
+                                <span class="text-word">excellence, </span>
+                                <span class="text-word">develop </span>
+                                <span class="text-word">strong </span>
+                                <span class="text-word">values, </span>
+                                <span class="text-word">and </span>
+                                <span class="text-word">become </span>
+                                <span class="text-word">responsible </span>
+                                <span class="text-word">contributors </span>
+                                <span class="text-word">to </span>
+                                <span class="text-word">society.</span>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Mission Section -->
+                <section class="mission-section" id="mission">
+                    <div class="mission-content">
+                        <div class="mission-image">
+                            <img src="img/mission.png" alt="Mission">
+                        </div>
+                        <div class="mission-text">
+                            <h3>Mission</h3>
+                            <p class="mission-paragraph">
+                                <span class="text-word">To </span>
+                                <span class="text-word">provide </span>
+                                <span class="text-word">quality </span>
+                                <span class="text-word">education </span>
+                                <span class="text-word">through </span>
+                                <span class="text-word">effective </span>
+                                <span class="text-word">teaching, </span>
+                                <span class="text-word">innovative </span>
+                                <span class="text-word">learning, </span>
+                                <span class="text-word">and </span>
+                                <span class="text-word">a </span>
+                                <span class="text-word">supportive </span>
+                                <span class="text-word">environment </span>
+                                <span class="text-word">that </span>
+                                <span class="text-word">develops </span>
+                                <span class="text-word">students' </span>
+                                <span class="text-word">skills, </span>
+                                <span class="text-word">character, </span>
+                                <span class="text-word">and </span>
+                                <span class="text-word">lifelong </span>
+                                <span class="text-word">learning </span>
+                                <span class="text-word">values.</span>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Events Carousel Section (Pure CSS Scroll Snap) -->
+    <section class="beard-carousel-section" id="events">
+        <div class="container">
+            <div class="pure-carousel-wrapper">
+                <!-- Radio controls for Pure CSS Carousel -->
+                <input type="radio" name="event-slider" id="event-slide-radio-1" class="carousel-radio-input" checked>
+                <input type="radio" name="event-slider" id="event-slide-radio-2" class="carousel-radio-input">
+                <input type="radio" name="event-slider" id="event-slide-radio-3" class="carousel-radio-input">
+                <input type="radio" name="event-slider" id="event-slide-radio-4" class="carousel-radio-input">
+                <input type="radio" name="event-slider" id="event-slide-radio-5" class="carousel-radio-input">
+
+                <div class="pure-carousel-track">
+                    <!-- Slide 1 -->
+                    <div class="pure-carousel-slide slide-1">
+                        <div class="carousel-content">
+                            <div class="carousel-number">01<span class="number-separator">/</span><span class="total-number">05</span></div>
+                            <div class="carousel-image-wrapper">
+                                <img src="img/sportfest.jpg" alt="Sportsfest" class="carousel-image">
+                                <div class="carousel-text">
+                                    <p class="beard-description">A celebration of teamwork and sportsmanship, united by passion and school spirit.</p>
+                                    <h3 class="beard-name">SPORTSFEST</h3>
+                                </div>
+                            </div>
+                            <label for="event-slide-radio-5" class="custom-carousel-btn carousel-control-prev" aria-label="Previous slide">
+                                <i class='bx bx-chevron-left'></i>
+                            </label>
+                            <label for="event-slide-radio-2" class="custom-carousel-btn carousel-control-next" aria-label="Next slide">
+                                <i class='bx bx-chevron-right'></i>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 2 -->
+                    <div class="pure-carousel-slide slide-2">
+                        <div class="carousel-content">
+                            <div class="carousel-number">02<span class="number-separator">/</span><span class="total-number">05</span></div>
+                            <div class="carousel-image-wrapper">
+                                <img src="img/basketball.jpg" alt="Basketball" class="carousel-image">
+                                <div class="carousel-text">
+                                    <p class="beard-description">A triumph of teamwork and discipline, crowned as basketball champions.</p>
+                                    <h3 class="beard-name">BASKETBALL</h3>
+                                </div>
+                            </div>
+                            <label for="event-slide-radio-1" class="custom-carousel-btn carousel-control-prev" aria-label="Previous slide">
+                                <i class='bx bx-chevron-left'></i>
+                            </label>
+                            <label for="event-slide-radio-3" class="custom-carousel-btn carousel-control-next" aria-label="Next slide">
+                                <i class='bx bx-chevron-right'></i>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 3 -->
+                    <div class="pure-carousel-slide slide-3">
+                        <div class="carousel-content">
+                            <div class="carousel-number">03<span class="number-separator">/</span><span class="total-number">05</span></div>
+                            <div class="carousel-image-wrapper">
+                                <img src="img/voleyball.jpg" alt="Volleyball" class="carousel-image">
+                                <div class="carousel-text">
+                                    <p class="beard-description">Victory earned through teamwork, creating a championship legacy that defines the team.</p>
+                                    <h3 class="beard-name">VOLLEYBALL</h3>
+                                </div>
+                            </div>
+                            <label for="event-slide-radio-2" class="custom-carousel-btn carousel-control-prev" aria-label="Previous slide">
+                                <i class='bx bx-chevron-left'></i>
+                            </label>
+                            <label for="event-slide-radio-4" class="custom-carousel-btn carousel-control-next" aria-label="Next slide">
+                                <i class='bx bx-chevron-right'></i>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 4 -->
+                    <div class="pure-carousel-slide slide-4">
+                        <div class="carousel-content">
+                            <div class="carousel-number">04<span class="number-separator">/</span><span class="total-number">05</span></div>
+                            <div class="carousel-image-wrapper">
+                                <img src="img/dance.jpg" alt="Dance Competition" class="carousel-image">
+                                <div class="carousel-text">
+                                    <p class="beard-description">A combination of rhythm and movement, blended together, creating a powerful performance.</p>
+                                    <h3 class="beard-name">DANCE COMPETITION</h3>
+                                </div>
+                            </div>
+                            <label for="event-slide-radio-3" class="custom-carousel-btn carousel-control-prev" aria-label="Previous slide">
+                                <i class='bx bx-chevron-left'></i>
+                            </label>
+                            <label for="event-slide-radio-5" class="custom-carousel-btn carousel-control-next" aria-label="Next slide">
+                                <i class='bx bx-chevron-right'></i>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 5 -->
+                    <div class="pure-carousel-slide slide-5">
+                        <div class="carousel-content">
+                            <div class="carousel-number">05<span class="number-separator">/</span><span class="total-number">05</span></div>
+                            <div class="carousel-image-wrapper">
+                                <img src="img/pageant.jpg" alt="Pageant" class="carousel-image">
+                                <div class="carousel-text">
+                                    <p class="beard-description">Beauty expressed through confidence and charm, ranging from subtle to striking presence.</p>
+                                    <h3 class="beard-name">PAGEANT</h3>
+                                </div>
+                            </div>
+                            <label for="event-slide-radio-4" class="custom-carousel-btn carousel-control-prev" aria-label="Previous slide">
+                                <i class='bx bx-chevron-left'></i>
+                            </label>
+                            <label for="event-slide-radio-1" class="custom-carousel-btn carousel-control-next" aria-label="Next slide">
+                                <i class='bx bx-chevron-right'></i>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Quick Navigation Indicators -->
+                <div class="carousel-indicators-pure">
+                    <label for="event-slide-radio-1" class="indicator-dot dot-1" title="Sportsfest" aria-label="Slide 1"></label>
+                    <label for="event-slide-radio-2" class="indicator-dot dot-2" title="Basketball" aria-label="Slide 2"></label>
+                    <label for="event-slide-radio-3" class="indicator-dot dot-3" title="Volleyball" aria-label="Slide 3"></label>
+                    <label for="event-slide-radio-4" class="indicator-dot dot-4" title="Dance Competition" aria-label="Slide 4"></label>
+                    <label for="event-slide-radio-5" class="indicator-dot dot-5" title="Pageant" aria-label="Slide 5"></label>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- FAQ Accordion Section (Native HTML5 details/summary) -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <div class="faq-header">
+                <h2 class="faq-title">Frequently Asked Questions</h2>
+                <p class="faq-subtitle">Find answers to common questions about DATAMEX</p>
+            </div>
+            
+            <div class="faq-accordion" id="faqAccordion">
+                <!-- Question 1 -->
+                <details class="faq-item" name="faq">
+                    <summary class="faq-question">
+                        <span class="faq-number">01</span>
+                        <span class="faq-question-text">What programs does DATAMEX offer?</span>
+                        <i class='bx bx-chevron-down faq-icon'></i>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>DATAMEX offers senior high school programs including academic tracks (STEM, HUMSS, ABM) and technical-vocational tracks focused on skill development.</p>
+                    </div>
+                </details>
+
+                <!-- Question 2 -->
+                <details class="faq-item" name="faq">
+                    <summary class="faq-question">
+                        <span class="faq-number">02</span>
+                        <span class="faq-question-text">How can I enroll at DATAMEX?</span>
+                        <i class='bx bx-chevron-down faq-icon'></i>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>Visit our campus during enrollment periods with your documents or click "APPLY NOW" on our homepage to start your application online.</p>
+                    </div>
+                </details>
+
+                <!-- Question 3 -->
+                <details class="faq-item" name="faq">
+                    <summary class="faq-question">
+                        <span class="faq-number">03</span>
+                        <span class="faq-question-text">What makes DATAMEX different from other schools?</span>
+                        <i class='bx bx-chevron-down faq-icon'></i>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>We combine academic excellence with practical skills training in a supportive environment, maintaining a strong track record of student success.</p>
+                    </div>
+                </details>
+
+                <!-- Question 4 -->
+                <details class="faq-item" name="faq">
+                    <summary class="faq-question">
+                        <span class="faq-number">04</span>
+                        <span class="faq-question-text">Are there scholarship opportunities available?</span>
+                        <i class='bx bx-chevron-down faq-icon'></i>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>Yes! We offer scholarships based on academic performance, financial need, and special talents. Contact our admissions office for details.</p>
+                    </div>
+                </details>
+
+                <!-- Question 5 -->
+                <details class="faq-item" name="faq">
+                    <summary class="faq-question">
+                        <span class="faq-number">05</span>
+                        <span class="faq-question-text">What facilities and equipment does the school have?</span>
+                        <i class='bx bx-chevron-down faq-icon'></i>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>We have modern classrooms, computer labs, science labs, library, sports facilities, and technical-vocational training areas.</p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Button (Pure CSS :target) -->
+    <a href="#contactModal" class="contact-fab" id="contactFab" aria-label="Contact Us">
+        <i class='bx bx-message-rounded-dots'></i>
+    </a>
+
+    <!-- Contact Modal (Pure CSS :target) -->
+    <div class="contact-modal-overlay" id="contactModal">
+        <a href="#" class="contact-modal-backdrop" aria-label="Close Contact Modal"></a>
+        <div class="contact-modal">
+            <div class="contact-modal-header">
+                <h3 class="contact-modal-title">Contact Us</h3>
+                <p class="contact-modal-subtitle">Or email: <a href="mailto:hello@datamex.com" class="contact-modal-email">hello@datamex.com</a></p>
+                <a href="#" class="contact-modal-close" id="contactModalClose" aria-label="Close contact form">
+                    <i class='bx bx-x'></i>
+                </a>
+            </div>
+            
+            <div class="contact-modal-body">
+                <form class="contact-form" id="contactForm" action="#" method="POST">
+                    <div class="form-group">
+                        <input 
+                            type="text" 
+                            id="fullName" 
+                            name="fullName"
+                            class="form-input" 
+                            placeholder="Full Name"
+                            required
+                        >
+                    </div>
+                    
+                    <div class="form-group">
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email"
+                            class="form-input" 
+                            placeholder="Email Address"
+                            required
+                        >
+                    </div>
+                    
+                    <div class="form-group">
+                        <div class="phone-input-group">
+                            <div class="country-code">+63</div>
+                            <input 
+                                type="tel" 
+                                id="phone" 
+                                name="phone"
+                                class="form-input phone-input" 
+                                placeholder="Phone (e.g., 912-345-6789)"
+                                pattern="9[0-9]{2}-?[0-9]{3}-?[0-9]{4}"
+                                title="Format: 912-345-6789"
+                            >
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea 
+                            id="message" 
+                            name="message"
+                            class="message-input" 
+                            placeholder="Your message (max 300 characters)..."
+                            maxlength="300"
+                            required
+                        ></textarea>
+                    </div>
+                    
+                    <div class="checkbox-group">
+                        <input 
+                            type="checkbox" 
+                            id="privacyPolicy" 
+                            name="privacyPolicy"
+                            class="checkbox-input" 
+                            required
+                        >
+                        <label for="privacyPolicy" class="checkbox-label">
+                            I agree to Privacy Policy
+                        </label>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn" id="submitBtn">
+                        Send Message
+                        <i class='bx bx-send'></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+       
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand-section">
+                <div class="brand-content">
+                    <img src="img/logo.PNG" alt="DATAMEX Logo" class="brand-logo">
+                </div>
+            </div>
+            
+            <div class="footer-copyright">
+                <p>Copyright © 2026 DATAMEX SAINT ADELINE - All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

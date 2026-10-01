@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academics & Programs | DATAMEX COLLEGE OF SAINT ADELINE</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo.PNG">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar-custom" id="navbar">
+        <div class="navbar-content">
+            <div class="navbar-left d-none d-lg-flex">
+                <ul class="navbar-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="academics.html" style="font-weight: 700; color: #811C19;">Academics</a></li>
+                </ul>
+            </div>
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.PNG" alt="DATAMEX Logo">
+            </a>
+            <div class="navbar-right d-none d-lg-flex">
+                <ul class="navbar-links">
+                    <li><a href="admissions.html">Admissions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <a href="#modalMenu" class="hamburger-btn d-lg-none" id="menuBtn" aria-label="Open Navigation Menu">
+                <i class='bx bx-menu'></i>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Modal Menu (Pure CSS :target) -->
+    <div class="modal-menu" id="modalMenu">
+        <a href="#" class="modal-overlay" id="modalOverlay" aria-label="Close Navigation Menu"></a>
+        <div class="modal-menu-container">
+            <div class="modal-header">
+                <div class="modal-brand-wrap">
+                    <img src="img/logo.PNG" alt="DATAMEX Logo">
+                    <div class="modal-brand-text">
+                        <span class="modal-brand-name">DATAMEX COLLEGE</span>
+                        <span class="modal-brand-tag">Saint Adeline • DCSA</span>
+                    </div>
+                </div>
+                <a href="#" class="close-btn" id="closeBtn" aria-label="Close Navigation Menu">✕</a>
+            </div>
+            <div class="modal-content">
+                <ul class="modal-nav">
+                    <li><a href="index.html"><i class='bx bx-home-alt'></i><span>Home</span></a></li>
+                    <li><a href="about.html"><i class='bx bx-info-circle'></i><span>About DCSA</span></a></li>
+                    <li><a href="academics.html" class="active"><i class='bx bx-book-open'></i><span>Academics</span></a></li>
+                    <li><a href="admissions.html"><i class='bx bx-map-pin'></i><span>Admissions & Branches</span></a></li>
+                    <li><a href="contact.html"><i class='bx bx-phone-call'></i><span>Contact Us</span></a></li>
+                    <li><a href="index.html#campus-tour"><i class='bx bx-video'></i><span>Campus Video Tour</span></a></li>
+                    <li><a href="index.html#events"><i class='bx bx-calendar-event'></i><span>Campus Events</span></a></li>
+                    <li><a href="index.html#faq"><i class='bx bx-help-circle'></i><span>FAQ</span></a></li>
+                </ul>
+                <div class="modal-footer-cta">
+                    <a href="admissions.html" class="modal-apply-btn">
+                        <i class='bx bx-edit-alt'></i>
+                        <span>Apply / Inquire Now</span>
+                    </a>
+                    <div class="modal-quick-info">
+                        <span><i class='bx bx-phone'></i> (02) 8-DATAMEX</span>
+                        <span><i class='bx bx-check-shield'></i> Accredited</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Subpage Hero -->
+    <header class="subpage-hero">
+        <div class="subpage-hero-container">
+            <span class="subpage-badge">Educational Curricula • CHED & DepEd Accredited</span>
+            <h1 class="subpage-title">Academics at <span>DCSA</span></h1>
+            <p class="subpage-subtitle">Explore our wide array of Commission on Higher Education (CHED) approved collegiate degree programs, TESDA diploma courses, and DepEd recognized Senior High School strands.</p>
+            
+            <div class="subpage-stats-row">
+                <div class="subpage-stat-pill">
+                    <span class="subpage-stat-num">CHED</span>
+                    <span class="subpage-stat-lbl">Degree Accredited</span>
+                </div>
+                <div class="subpage-stat-pill">
+                    <span class="subpage-stat-num">100%</span>
+                    <span class="subpage-stat-lbl">Free SHS Voucher</span>
+                </div>
+                <div class="subpage-stat-pill">
+                    <span class="subpage-stat-num">TESDA</span>
+                    <span class="subpage-stat-lbl">Certified Tracks</span>
+                </div>
+                <div class="subpage-stat-pill">
+                    <span class="subpage-stat-num">5 Strands</span>
+                    <span class="subpage-stat-lbl">Senior High School</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Quick Navigation Anchor Bar -->
+    <div style="background: #ffffff; border-bottom: 1px solid #e2e8f0; padding: 15px 0; position: sticky; top: 80px; z-index: 90;">
+        <div class="container text-center" style="max-width: 900px; display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+            <a href="#college" class="branch-btn branch-btn-secondary" style="font-size: 0.88rem; padding: 8px 18px;">College Programs</a>
+            <a href="#shs" class="branch-btn branch-btn-secondary" style="font-size: 0.88rem; padding: 8px 18px;">Senior High Strands</a>
+            <a href="#uniform" class="branch-btn branch-btn-secondary" style="font-size: 0.88rem; padding: 8px 18px;">Uniform Reference</a>
+            <a href="#safety" class="branch-btn branch-btn-secondary" style="font-size: 0.88rem; padding: 8px 18px;">Campus Safety</a>
+        </div>
+    </div>
+
+    <!-- College Programs Section -->
+    <section id="college" class="programs-section" style="background: #ffffff;">
+        <div class="container" style="max-width: 1100px;">
+            <div class="text-center">
+                <span class="section-tag">Higher Education</span>
+                <h2 class="section-main-title">CHED-Recognized College Curricula</h2>
+                <p class="section-main-desc">4-Year Bachelor Degree & 2-Year Diploma Curricula built for immediate industry hiring and international competitiveness.</p>
+            </div>
+
+            <div class="programs-grid">
+                <!-- BSIT -->
+                <div class="program-card accent-blue">
+                    <div>
+                        <span class="program-badge">Flagship Degree</span>
+                        <h3 class="program-title">BS Information Technology (BSIT)</h3>
+                        <p class="program-desc">Full-stack software engineering, web technology, database systems, cybersecurity, network administration, and cloud infrastructure engineered for high-growth global tech careers.</p>
+                        <ul class="req-list" style="margin-bottom: 25px;">
+                            <li><i class='bx bx-check-circle'></i> Full-Stack Web & Mobile App Development</li>
+                            <li><i class='bx bx-check-circle'></i> Network Security & System Administration</li>
+                            <li><i class='bx bx-check-circle'></i> Real-World IT Internship & Capstone Project</li>
+                        </ul>
+                    </div>
+                    <a href="admissions.html#branches" class="program-btn">Inquire for BSIT &rarr;</a>
+                </div>
+
+                <!-- BSHM -->
+                <div class="program-card accent-red">
+                    <div>
+                        <span class="program-badge badge-red">Hospitality Degree</span>
+                        <h3 class="program-title">BS Hospitality Management (BSHM)</h3>
+                        <p class="program-desc">International hotel operations, culinary gastronomy, beverage management, front office systems, events production, and cruise line hospitality training in our commercial kitchen.</p>
+                        <ul class="req-list" style="margin-bottom: 25px;">
+                            <li><i class='bx bx-check-circle'></i> Hands-on Culinary Arts & Food Preparation</li>
+                            <li><i class='bx bx-check-circle'></i> Bar & Beverage Services Management</li>
+                            <li><i class='bx bx-check-circle'></i> Local & International Hotel Practicum</li>
+                        </ul>
+                    </div>
+                    <a href="admissions.html#branches" class="program-btn" style="background: #811C19;">Inquire for BSHM &rarr;</a>
+                </div>
+
+                <!-- ACT -->
+                <div class="program-card accent-green">
+                    <div>
+                        <span class="program-badge badge-green">2-Year Diploma</span>
+                        <h3 class="program-title">Associate in Computer Tech (ACT)</h3>
+                        <p class="program-desc">A 2-year fast-track technical diploma focused on PC assembly, hardware troubleshooting, network wiring, operating systems setup, and entry-level programming skills.</p>
+                        <ul class="req-list" style="margin-bottom: 25px;">
+                            <li><i class='bx bx-check-circle'></i> Computer Hardware Servicing & Diagnostics</li>
+                            <li><i class='bx bx-check-circle'></i> LAN Setup & Office Network Configuration</li>
+                            <li><i class='bx bx-check-circle'></i> Seamless Ladderization to Full BSIT Degree</li>
+                        </ul>
+                    </div>
+                    <a href="admissions.html#branches" class="program-btn" style="background: #2A6033;">Inquire for ACT &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Senior High School Strands -->
+    <section id="shs" class="programs-section" style="background: #F7F7F7;">
+        <div class="container" style="max-width: 1100px;">
+            <div class="text-center">
+                <span class="section-tag">DepEd Senior High School</span>
+                <h2 class="section-main-title">SHS Academic & Technical Strands</h2>
+                <div style="display: inline-block; background: rgba(51, 45, 94, 0.08); color: #332D5E; padding: 8px 20px; border-radius: 50px; font-weight: 600; font-size: 0.9rem; margin: 10px 0 25px;">
+                    🎉 100% Free Tuition with DepEd SHS Voucher • No Top-Up Fees!
+                </div>
+                <p class="section-main-desc">Prepare for collegiate success or immediate career entry with our comprehensive senior high tracks.</p>
+            </div>
+
+            <div class="programs-grid">
+                <!-- STEM -->
+                <div class="program-card accent-red">
+                    <div>
+                        <span class="program-badge badge-red">Grade 12 Only</span>
+                        <h3 class="program-title">STEM (Science, Tech, Engineering, Math)</h3>
+                        <p class="program-desc">Advanced calculus, physics, chemistry, and algorithmic problem solving designed for aspiring software engineers, civil engineers, doctors, and scientists.</p>
+                    </div>
+                    <a href="admissions.html#branches" class="program-btn" style="background: #811C19;">Enroll in STEM &rarr;</a>
+                </div>
+
+                <!-- ABM -->
+                <div class="program-card accent-blue">
+                    <div>
+                        <span class="program-badge">Grades 11 & 12</span>
+                        <h3 class="program-title">ABM (Accountancy, Business & Management)</h3>
+                        <p class="program-desc">Fundamentals of accounting, marketing principles, corporate finance, and business enterprise simulation for future entrepreneurs and accountants.</p>
+                    </div>
+                    <a href="admissions.html#branches" class="program-btn">Enroll in ABM &rarr;</a>
+                </div>
+
+                <!-- HUMSS -->
+                <div class="program-card accent-green">
+                    <div>
+                        <span class="program-badge badge-green">Grades 11 & 12</span>
+                        <h3 class="program-title">HUMSS (Humanities & Social Sciences)</h3>
+                        <p class="program-desc">Critical discourse, creative writing, Philippine politics, and community dynamics tailored for future lawyers, educators, psychologists, and journalists.</p>
+                    </div>
+                    <a href="admissions.html#branches" class="program-btn" style="background: #2A6033;">Enroll in HUMSS &rarr;</a>
+                </div>
+
+                <!-- TVL - ICT -->
+                <div class="program-card accent-blue">
+                    <div>
+                        <span class="program-badge">TVL Track • Grades 11 & 12</span>
+                        <h3 class="program-title">TVL - ICT (Computer Systems & Programming)</h3>
+                        <p class="program-desc">Hands-on hardware troubleshooting, networking setup, Java/Python programming, and web design basics that lead to national TESDA certifications.</p>
+                    </div>
+                    <a href="admissions.html#branches" class="program-btn">Enroll in TVL-ICT &rarr;</a>
+                </div>
+
+                <!-- TVL - Home Economics -->
+                <div class="program-card accent-red">
+                    <div>
+                        <span class="program-badge badge-red">TVL Track • Grades 11 & 12</span>
+                        <h3 class="program-title">TVL - Home Economics (Cookery & Hospitality)</h3>
+                        <p class="program-desc">Food and beverage service, commercial culinary cooking, bread and pastry production, and hotel housekeeping procedures in specialized lab rooms.</p>
+                    </div>
+                    <a href="admissions.html#branches" class="program-btn" style="background: #811C19;">Enroll in TVL-HE &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Uniform Reference -->
+    <section class="uniform-section" id="uniform">
+        <div class="container" style="max-width: 1100px;">
+            <div class="text-center">
+                <span class="section-tag">Student Life & Standards</span>
+                <h2 class="section-main-title">Official School Uniform Reference</h2>
+                <p class="section-main-desc">Visual guide and campus dress code policy for all registered students of Datamex College of St. Adeline.</p>
+            </div>
+
+            <div class="uniform-grid">
+                <div class="uniform-photo-box">
+                    <img src="img/6b670adb-aa3b-4b97-b667-b92e14508b4e.jpg" alt="Official DCSA Student Uniform Reference Guide">
+                </div>
+
+                <div class="uniform-policy-cards">
+                    <div class="uniform-policy-card">
+                        <h4 class="uniform-policy-title"><i class='bx bx-id-card' style="color: #811C19; font-size: 1.4rem;"></i> Campus Dress Code & ID Policy</h4>
+                        <p class="uniform-policy-desc">All students are strictly required to wear their complete official school uniform together with their valid <strong>DCSA Student ID & Official Lanyard</strong> upon entering any campus branch.</p>
+                    </div>
+
+                    <div class="uniform-policy-card navy-border">
+                        <h4 class="uniform-policy-title"><i class='bx bx-user' style="color: #332D5E; font-size: 1.4rem;"></i> Female Uniform Specification</h4>
+                        <p class="uniform-policy-desc">Official white uniform blouse with DCSA embroidered emblem, maroon necktie/scarf, pleated maroon skirt, white knee-high socks, and clean black closed shoes.</p>
+                    </div>
+
+                    <div class="uniform-policy-card navy-border">
+                        <h4 class="uniform-policy-title"><i class='bx bx-user' style="color: #332D5E; font-size: 1.4rem;"></i> Male Uniform Specification</h4>
+                        <p class="uniform-policy-desc">Official white uniform polo with DCSA necktie, tailored maroon trousers, dark socks, and polished black leather shoes. Undershirts must be plain white.</p>
+                    </div>
+
+                    <div class="uniform-policy-card">
+                        <h4 class="uniform-policy-title"><i class='bx bx-store' style="color: #811C19; font-size: 1.4rem;"></i> Uniform Availability</h4>
+                        <p class="uniform-policy-desc">Complete uniform sets, neckties, pins, patches, and official lanyards are available at the Campus Bookstore and Admissions Office at all branches.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campus Safety & Health Advisories -->
+    <section class="safety-section" id="safety" style="background: #ffffff;">
+        <div class="container" style="max-width: 1100px;">
+            <div class="text-center">
+                <span class="section-tag">Student Welfare & Protection</span>
+                <h2 class="section-main-title">Campus Safety & Health Advisories</h2>
+                <p class="section-main-desc">At Datamex College of St. Adeline, student security, well-being, and health are proactive institutional commitments.</p>
+            </div>
+
+            <div class="safety-grid">
+                <!-- Anti-Bullying Card -->
+                <div class="safety-card">
+                    <div class="safety-img-box">
+                        <img src="img/anti-bullying.png" alt="Anti-Bullying & Child Protection Committee">
+                    </div>
+                    <div class="safety-card-body">
+                        <span class="safety-badge">S.Y. 2026–2027 Committee</span>
+                        <h4 class="safety-title">Anti-Bullying & Child Protection</h4>
+                        <p class="safety-desc">"One Datamex, One Community, Zero Bullying." A safe, respectful, and inclusive space where every learner is valued.</p>
+                        <ul class="safety-list">
+                            <li><strong>Zero-Tolerance Policy:</strong> Strict prevention against harassment and cyberbullying.</li>
+                            <li><strong>Guidance Support:</strong> On-site Registered Guidance Counselor and Child Protection Officers.</li>
+                            <li><strong>Peer Advocates:</strong> Active student council and parent committee representation.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Health & Stay Home Protocol -->
+                <div class="safety-card">
+                    <div class="safety-img-box">
+                        <img src="img/stay-home-policy.jpg" alt="When Should You Stay Home - Health Protocol">
+                    </div>
+                    <div class="safety-card-body">
+                        <span class="safety-badge navy-badge">Clinic Guidelines</span>
+                        <h4 class="safety-title">When Should You Stay Home?</h4>
+                        <p class="safety-desc">"Your health matters. Let's stop the spread and keep our learning spaces safe and healthy."</p>
+                        <ul class="safety-list">
+                            <li><strong>Attendance Benchmarks:</strong> Clear clinic guidelines for fever (&gt;38°C) or contagious symptoms.</li>
+                            <li><strong>Campus Clinic Nurse:</strong> Dedicated medical personnel ready for first aid and health monitoring.</li>
+                            <li><strong>Parent Coordination:</strong> Immediate notification to family members for recovery at home.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Active Threat Drill -->
+                <div class="safety-card">
+                    <div class="safety-img-box">
+                        <img src="img/active-threat-drill.png" alt="Active Threat Drill Safety Guidelines">
+                    </div>
+                    <div class="safety-card-body">
+                        <span class="safety-badge">Campus Security</span>
+                        <h4 class="safety-title">Active Threat Safety Drill</h4>
+                        <p class="safety-desc">"Stay Informed. Be Prepared. Protect Yourself and Others." Institutional crisis response training.</p>
+                        <ul class="safety-list">
+                            <li><strong>RUN • HIDE • FIGHT:</strong> Standardized institutional emergency drills practiced across campus.</li>
+                            <li><strong>Police Coordination:</strong> Direct hotline to local PNP Valenzuela (8352 4000) & Unified 911.</li>
+                            <li><strong>Safety Marshals:</strong> Trained faculty marshals leading students safely during emergencies.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Haze Alert -->
+                <div class="safety-card">
+                    <div class="safety-img-box">
+                        <img src="img/haze-alert.png" alt="Haze Alert Health Advisory">
+                    </div>
+                    <div class="safety-card-body">
+                        <span class="safety-badge gold-badge">Air Quality Alert</span>
+                        <h4 class="safety-title">Haze Alert & Air Quality Protocol</h4>
+                        <p class="safety-desc">"Stay Informed. Take Caution. Protect Your Health. Safety First!" Smog and air advisory steps.</p>
+                        <ul class="safety-list">
+                            <li><strong>4 Core Steps:</strong> Stay indoors, wear N95 face masks, seal drafts, safe commuting.</li>
+                            <li><strong>Respiratory Care:</strong> Dedicated support for students with asthma or sensitivities.</li>
+                            <li><strong>Ventilated Spaces:</strong> Controlled airflow throughout all computer labs and lecture halls.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand-section">
+                <div class="brand-content">
+                    <img src="img/logo.PNG" alt="DATAMEX Logo" class="brand-logo">
+                    <p style="color: #64748b; font-size: 0.95rem; margin-top: 15px; max-width: 400px; text-align: center;">Datamex College of St. Adeline • Committed to Global Skill Development & Character</p>
+                </div>
+            </div>
+            
+            <div class="footer-copyright">
+                <p>Copyright © 2026 DATAMEX COLLEGE OF SAINT ADELINE - All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

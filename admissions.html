@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walk-In Admissions & Campus Branches | DATAMEX COLLEGE OF SAINT ADELINE</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo.PNG">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar-custom" id="navbar">
+        <div class="navbar-content">
+            <div class="navbar-left d-none d-lg-flex">
+                <ul class="navbar-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                </ul>
+            </div>
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.PNG" alt="DATAMEX Logo">
+            </a>
+            <div class="navbar-right d-none d-lg-flex">
+                <ul class="navbar-links">
+                    <li><a href="admissions.html" style="font-weight: 700; color: #811C19;">Admissions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <a href="#modalMenu" class="hamburger-btn d-lg-none" id="menuBtn" aria-label="Open Navigation Menu">
+                <i class='bx bx-menu'></i>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Modal Menu (Pure CSS :target) -->
+    <div class="modal-menu" id="modalMenu">
+        <a href="#" class="modal-overlay" id="modalOverlay" aria-label="Close Navigation Menu"></a>
+        <div class="modal-menu-container">
+            <div class="modal-header">
+                <div class="modal-brand-wrap">
+                    <img src="img/logo.PNG" alt="DATAMEX Logo">
+                    <div class="modal-brand-text">
+                        <span class="modal-brand-name">DATAMEX COLLEGE</span>
+                        <span class="modal-brand-tag">Saint Adeline • DCSA</span>
+                    </div>
+                </div>
+                <a href="#" class="close-btn" id="closeBtn" aria-label="Close Navigation Menu">✕</a>
+            </div>
+            <div class="modal-content">
+                <ul class="modal-nav">
+                    <li><a href="index.html"><i class='bx bx-home-alt'></i><span>Home</span></a></li>
+                    <li><a href="about.html"><i class='bx bx-info-circle'></i><span>About DCSA</span></a></li>
+                    <li><a href="academics.html"><i class='bx bx-book-open'></i><span>Academics</span></a></li>
+                    <li><a href="admissions.html" class="active"><i class='bx bx-map-pin'></i><span>Admissions & Branches</span></a></li>
+                    <li><a href="contact.html"><i class='bx bx-phone-call'></i><span>Contact Us</span></a></li>
+                    <li><a href="index.html#campus-tour"><i class='bx bx-video'></i><span>Campus Video Tour</span></a></li>
+                    <li><a href="index.html#events"><i class='bx bx-calendar-event'></i><span>Campus Events</span></a></li>
+                    <li><a href="index.html#faq"><i class='bx bx-help-circle'></i><span>FAQ</span></a></li>
+                </ul>
+                <div class="modal-footer-cta">
+                    <a href="admissions.html" class="modal-apply-btn">
+                        <i class='bx bx-edit-alt'></i>
+                        <span>Apply / Inquire Now</span>
+                    </a>
+                    <div class="modal-quick-info">
+                        <span><i class='bx bx-phone'></i> (02) 8-DATAMEX</span>
+                        <span><i class='bx bx-check-shield'></i> Accredited</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Subpage Hero -->
+    <header class="subpage-hero">
+        <div class="subpage-hero-container">
+            <span class="subpage-badge">Admissions SY 2026–2027 • Walk-In Open</span>
+            <h1 class="subpage-title">Walk-In <span>Admissions & Branches</span></h1>
+            <p class="subpage-subtitle">Admissions for Senior High School (100% DepEd Voucher Free Tuition) and College Degree Programs are currently open for direct inquiries and document submissions across all official DCSA campus locations!</p>
+            
+            <div class="subpage-stats-row">
+                <div class="subpage-stat-pill">
+                    <span class="subpage-stat-num">4</span>
+                    <span class="subpage-stat-lbl">Campus Branches</span>
+                </div>
+                <div class="subpage-stat-pill">
+                    <span class="subpage-stat-num">100%</span>
+                    <span class="subpage-stat-lbl">DepEd Voucher Free</span>
+                </div>
+                <div class="subpage-stat-pill">
+                    <span class="subpage-stat-num">₱0</span>
+                    <span class="subpage-stat-lbl">Tuition with Voucher</span>
+                </div>
+                <div class="subpage-stat-pill">
+                    <span class="subpage-stat-num">Mon–Fri</span>
+                    <span class="subpage-stat-lbl">8:00 AM – 5:00 PM</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Campus Branches Section -->
+    <section id="branches" class="programs-section" style="background: #ffffff;">
+        <div class="container" style="max-width: 1100px;">
+            <div class="text-center mb-5">
+                <span class="section-tag">Find Your Nearest Campus</span>
+                <h2 class="section-main-title">Official Campus Maps & Locations</h2>
+                <p class="section-main-desc">Visit any of our 4 official DCSA campus branches for direct walk-in assistance, strand counseling, and registration.</p>
+            </div>
+
+            <!-- Campus Branches Map Graphic -->
+            <div class="branches-map-card">
+                <img src="img/dcsa-branches-map.png" alt="DCSA Official Campus Branches Map">
+            </div>
+
+            <!-- 4 Branches Grid -->
+            <div class="branches-grid">
+                <!-- Valenzuela Branch -->
+                <div class="branch-card">
+                    <div>
+                        <span class="program-badge">Primary Campus</span>
+                        <h3 class="branch-name">VALENZUELA BRANCH</h3>
+                        <div class="branch-meta">
+                            <p style="margin-bottom: 10px;"><strong>📍 Address:</strong><br>2nd Flr. Gotaco Bldg 2, 32 MacArthur Highway, Marulas, Valenzuela City</p>
+                            <p style="margin-bottom: 0;"><strong>🏢 Landmarks:</strong><br>PNB Valenzuela MacArthur, Pizza Hut Marulas, Isabelle de Valenzuela Condominium, KFC, 7-Eleven, J&T Express</p>
+                        </div>
+                    </div>
+                    <div class="branch-btns">
+                        <a href="https://www.facebook.com/datamexcollegeofstadelinevalenzuela" target="_blank" rel="noopener noreferrer" class="branch-btn branch-btn-primary">
+                            <i class='bx bxl-facebook-circle' style="font-size: 1.2rem;"></i> Facebook Page
+                        </a>
+                        <a href="https://maps.google.com/?q=32+MacArthur+Highway+Valenzuela" target="_blank" rel="noopener noreferrer" class="branch-btn branch-btn-secondary">
+                            <i class='bx bx-map-pin' style="font-size: 1.2rem;"></i> Open in Google Maps
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Fairview Branch -->
+                <div class="branch-card">
+                    <div>
+                        <span class="program-badge badge-red">Quezon City Branch</span>
+                        <h3 class="branch-name">FAIRVIEW BRANCH</h3>
+                        <div class="branch-meta">
+                            <p style="margin-bottom: 10px;"><strong>📍 Address:</strong><br>85 Commonwealth Ave., Greater Fairview, Quezon City</p>
+                            <p style="margin-bottom: 0;"><strong>🏢 Landmarks:</strong><br>BDO Fairview Branch, KFC Fairview Commonwealth, Lydia's Lechon, Dunkin' Unioil, Metrobank Fairview</p>
+                        </div>
+                    </div>
+                    <div class="branch-btns">
+                        <a href="https://www.facebook.com/datamexcollegeofstadelinefairview" target="_blank" rel="noopener noreferrer" class="branch-btn branch-btn-primary">
+                            <i class='bx bxl-facebook-circle' style="font-size: 1.2rem;"></i> Facebook Page
+                        </a>
+                        <a href="https://maps.google.com/?q=85+Commonwealth+Ave+Fairview+Quezon+City" target="_blank" rel="noopener noreferrer" class="branch-btn branch-btn-secondary">
+                            <i class='bx bx-map-pin' style="font-size: 1.2rem;"></i> Open in Google Maps
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Caloocan Branch -->
+                <div class="branch-card">
+                    <div>
+                        <span class="program-badge badge-green">Caloocan Branch</span>
+                        <h3 class="branch-name">CALOOCAN BRANCH</h3>
+                        <div class="branch-meta">
+                            <p style="margin-bottom: 10px;"><strong>📍 Address:</strong><br>Monumento Center, Rizal Ave. Extension, Caloocan City</p>
+                            <p style="margin-bottom: 0;"><strong>🏢 Landmarks:</strong><br>Near Monumento LRT-1 Station, SM Center Sangandaan, Victory Central Mall, Puregold Monumento</p>
+                        </div>
+                    </div>
+                    <div class="branch-btns">
+                        <a href="https://www.facebook.com/datamexcollegeofstadelinecaloocan" target="_blank" rel="noopener noreferrer" class="branch-btn branch-btn-primary">
+                            <i class='bx bxl-facebook-circle' style="font-size: 1.2rem;"></i> Facebook Page
+                        </a>
+                        <a href="https://maps.google.com/?q=Monumento+Caloocan+City" target="_blank" rel="noopener noreferrer" class="branch-btn branch-btn-secondary">
+                            <i class='bx bx-map-pin' style="font-size: 1.2rem;"></i> Open in Google Maps
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Meycauayan Branch -->
+                <div class="branch-card">
+                    <div>
+                        <span class="program-badge">Bulacan Branch</span>
+                        <h3 class="branch-name">MEYCAUAYAN BRANCH</h3>
+                        <div class="branch-meta">
+                            <p style="margin-bottom: 10px;"><strong>📍 Address:</strong><br>MacArthur Highway, Calvario, Meycauayan City, Bulacan</p>
+                            <p style="margin-bottom: 0;"><strong>🏢 Landmarks:</strong><br>Near Meycauayan Common Terminal, St. Francis of Assisi Parish Church, City Commercial Center</p>
+                        </div>
+                    </div>
+                    <div class="branch-btns">
+                        <a href="https://www.facebook.com/datamexmeycauayan" target="_blank" rel="noopener noreferrer" class="branch-btn branch-btn-primary">
+                            <i class='bx bxl-facebook-circle' style="font-size: 1.2rem;"></i> Facebook Page
+                        </a>
+                        <a href="https://maps.google.com/?q=Meycauayan+Bulacan" target="_blank" rel="noopener noreferrer" class="branch-btn branch-btn-secondary">
+                            <i class='bx bx-map-pin' style="font-size: 1.2rem;"></i> Open in Google Maps
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admission Requirements -->
+    <section id="requirements" style="padding: 80px 0; background: #F7F7F7;">
+        <div class="container" style="max-width: 1100px;">
+            <div class="text-center">
+                <span class="section-tag">Checklist</span>
+                <h2 class="section-main-title">Admission Requirements</h2>
+                <p class="section-main-desc">Prepare the following standard credentials for submission upon walk-in enrollment at your chosen branch.</p>
+            </div>
+
+            <div class="req-grid">
+                <!-- SHS Requirements -->
+                <div class="req-card">
+                    <h3 class="req-card-title"><i class='bx bx-id-card' style="color: #811C19; font-size: 1.6rem;"></i> Senior High School Applicants</h3>
+                    <p style="color: #64748b; font-size: 0.92rem; margin-bottom: 18px;">Incoming Grade 11 & Grade 12 Transferees (100% Free Tuition with Voucher):</p>
+                    <ul class="req-list">
+                        <li><i class='bx bx-check-circle'></i> Original Form 138 (Grade 10 Report Card)</li>
+                        <li><i class='bx bx-check-circle'></i> PSA Birth Certificate (Photocopy with original for verification)</li>
+                        <li><i class='bx bx-check-circle'></i> Certificate of Good Moral Character from previous school</li>
+                        <li><i class='bx bx-check-circle'></i> DepEd Voucher Certificate / ESC Certificate (if private school completer)</li>
+                        <li><i class='bx bx-check-circle'></i> 4 pcs 2x2 ID Pictures with white background and name tag</li>
+                        <li><i class='bx bx-check-circle'></i> Barangay Clearance of the student or parent</li>
+                    </ul>
+                </div>
+
+                <!-- College Requirements -->
+                <div class="req-card">
+                    <h3 class="req-card-title"><i class='bx bx-graduation' style="color: #332D5E; font-size: 1.6rem;"></i> College & Technical Diploma Applicants</h3>
+                    <p style="color: #64748b; font-size: 0.92rem; margin-bottom: 18px;">For BSIT, BSHM, and ACT Freshmen & Transferees:</p>
+                    <ul class="req-list">
+                        <li><i class='bx bx-check-circle'></i> Original Form 138 (Senior High School Report Card) or Form 137</li>
+                        <li><i class='bx bx-check-circle'></i> PSA Authenticated Birth Certificate</li>
+                        <li><i class='bx bx-check-circle'></i> Certificate of Good Moral Character</li>
+                        <li><i class='bx bx-check-circle'></i> 4 pcs 2x2 Recent Color ID Pictures</li>
+                        <li><i class='bx bx-check-circle'></i> Transcript of Records (TOR) & Honorable Dismissal (for transferees)</li>
+                        <li><i class='bx bx-check-circle'></i> Marriage Certificate (for married female applicants)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Step-by-Step Enrollment Guide -->
+    <section style="padding: 85px 0; background: #ffffff;">
+        <div class="container" style="max-width: 1100px;">
+            <div class="text-center">
+                <span class="section-tag">Simple & Hassle-Free</span>
+                <h2 class="section-main-title">4-Step Walk-In Enrollment Process</h2>
+                <p class="section-main-desc">Complete your registration smoothly in four convenient steps at our Admissions Office.</p>
+            </div>
+
+            <div class="steps-row">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h4 class="step-title">Inquire & Consult</h4>
+                    <p class="step-desc">Visit any DCSA campus branch. Meet our friendly admissions counselors to select your strand or degree program.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number" style="background: #332D5E;">2</div>
+                    <h4 class="step-title">Submit Credentials</h4>
+                    <p class="step-desc">Present your Form 138 report card, PSA birth certificate, Good Moral certificate, and ID pictures.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number" style="background: #811C19;">3</div>
+                    <h4 class="step-title">Evaluation</h4>
+                    <p class="step-desc">Our Registrar will review your academic qualifications and certify your 100% DepEd Voucher subsidy.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number" style="background: #2A6033;">4</div>
+                    <h4 class="step-title">Sectioning & ID</h4>
+                    <p class="step-desc">Receive your official registration form, class schedule, section assignment, and campus student ID!</p>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 50px;">
+                <a href="contact.html" class="program-btn" style="padding: 14px 30px; font-size: 1rem;">Have Questions? Contact Admissions Office &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand-section">
+                <div class="brand-content">
+                    <img src="img/logo.PNG" alt="DATAMEX Logo" class="brand-logo">
+                    <p style="color: #64748b; font-size: 0.95rem; margin-top: 15px; max-width: 400px; text-align: center;">Datamex College of St. Adeline • Committed to Global Skill Development & Character</p>
+                </div>
+            </div>
+            
+            <div class="footer-copyright">
+                <p>Copyright © 2026 DATAMEX COLLEGE OF SAINT ADELINE - All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
